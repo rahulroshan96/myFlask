@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>
+        FlaskApp
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+    <body>
+
+    {% include 'common/navbar.html'%}
+
+    <div class="container">
+        {% block body %} {% endblock %}
+    </div>
+    {% include 'common/scripts.html'%}
+    </body>
+</html>
